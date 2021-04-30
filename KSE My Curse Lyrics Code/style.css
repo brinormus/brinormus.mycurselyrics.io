@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+body {
+   background: linear-gradient(35deg, white, rgb(138, 18, 138));
+}
+.lyrics{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-style:normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:link {
+    color:blue;
+}
+a:visited {
+    color:blue;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media (orientation: landscape), (max-width: 500px) {
+    body {
+        background-color:black;
+    }
+}
